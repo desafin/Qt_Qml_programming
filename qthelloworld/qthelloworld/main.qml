@@ -6,4 +6,17 @@ Window {
     height: 480
     visible: true
     title: qsTr("Hello World")
+
+    MouseArea{
+        anchors.fill: parent //affects the all
+        onClicked: {//if mouse clikced window
+            Qt.quit()//close all window
+        }
+    }
+
+    Text {
+        id: name
+        text: "hello world"
+        anchors.centerIn: parent//text in center
+    }
 }
