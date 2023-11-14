@@ -29,16 +29,25 @@ Window {
                duration: 250
            }
         }
-
-        MouseArea{
-            anchors.fill: parent
-            onPressed: {
-
-                whell.rotation += 90
-
-            }
+    Item{
+        anchors.fill: parent
+        focus:true
+        Keys.onLeftPressed:
+        {
+            console.log("move left")
+            whell.rotation-=90
         }
+        Keys.onRightPressed:
+        {
+            console.log("move right")
+            whell.rotation+=90
+        }
+
     }
+
+
+
+ }
 
 
 }
