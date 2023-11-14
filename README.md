@@ -15,3 +15,4 @@
 - QT 2.15 version
 
 ## 결과 이미지
+![바람개비](https://github.com/desafin/Qt_Qml_programming/assets/131871057/2d01d789-69ce-461c-8bf3-88593b8c7fdc)
